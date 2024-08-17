@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Signika+Negative:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.menu-inicial {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #02214B;
+}
+
+header img {
+    width: 200px;
+}
+
+.logo {
+    grid-column: 1;
+    text-align: center;
+}
+
+.menu {
+    grid-column: 2;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.menu nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#nav-menu {
+    padding: 50px 0;
+}
+
+#nav-menu ul li a{
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-menu ul li a:hover {
+    font-weight: 800;
+}
+
+.corpo-titulo {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.titulo {
+    text-align: center;
+    grid-column: 2;
+    color: #02214B;
+}
+
+.titulo h1 {
+    font-size: 50px;
+    font-family: "Signika", sans-serif;
+    text-shadow: -3px 3px 1px #CD8B28;
+}
+
+.titulo input{
+    background: none;
+    border: #CD8B28 solid 2px;
+    padding: 5px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.corpo-opcoes{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 2fr 2fr 2fr 2fr 3fr 1fr;
+    grid-template-rows: 500px;
+}
+
+.coluna-1{
+    grid-column: 4;
+}
+
+.coluna-2{
+    grid-column: 5;
+}
+
+.coluna-3{
+    grid-column: 6;
+}
+
+.coluna-4{
+    grid-column: 7;
+} 
+
+.coluna-1 div, .coluna-2 div, .coluna-3 div, .coluna-4 div{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.menu-opcoes{
+    grid-column: 2;
+    border: solid 5px #CD8B28;
+    background-color: #02214B;
+    border-radius: 5px;
+    width: 400px;
+    padding: 50px;
+    top: 0;
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+}
+
+.menu-opcoes p{
+    padding: 30px;
+    color: white;
+    border-bottom: 1px white solid;
+    margin-top: 5px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu-opcoes p:hover{
+    font-weight: 800;
+}
+
+.promo-1{
+    background-image: url(imagens/promoção-4.png);
+    background-size: cover;
+}
+
+.promo-2{
+    background-image: url(imagens/promoção-2.png);
+    background-size: cover;
+}
+
+.promo-3{
+    background-image: url(imagens/promoção-3.png);
+    background-size: cover;
+}
+
+.promo-4{
+    background-image: url(imagens/promoção.png);
+    background-size: cover;
+}
+
+.sal1{
+    background-image: url(imagens/1.png);
+    background-size: cover;
+}
+
+.sal2{
+    background-image: url(imagens/2.png);
+    background-size: cover;
+}
+
+.sal3{
+    background-image: url(imagens/3.png);
+    background-size: cover;
+}
+
+.sal4 {
+    background-image: url(imagens/4.png);
+    background-size: cover;
+}
+
+.doc1{
+    background-image: url(imagens/doce1.png);
+    background-size: cover;
+}
+
+.doc2{
+    background-image: url(imagens/doce2.png);
+    background-size: cover;
+}
+
+.doc3{
+    background-image: url(imagens/doce3.png);
+    background-size: cover;
+}
+
+.doc4{
+    background-image: url(imagens/doce4.png);
+    background-size: cover;
+}
+
+.beb-1{
+    background-image: url(imagens/beb1.png);
+    background-size: cover;
+}
+
+.beb-2{
+    background-image: url(imagens/beb2.png);
+    background-size: cover;
+}
+
+.beb-3{
+    background-image: url(imagens/beb3.png);
+    background-size: cover;
+}
+
+.beb-4{
+    background-image: url(imagens/beb4.png);
+    background-size: cover;
+}
+
+footer{
+    margin-top: 500px;
+    background-color: #02214B;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 2fr 3fr auto;
+    grid-template-rows: 100%;
+    padding: 50px;
+}
+
+.logo-footer{
+    grid-column: 1;
+    text-align: center;
+}
+
+.logo-footer img{
+    margin-top: 20px;
+    width: 150px;
+    vertical-align: middle;
+}
+
+.paginas{
+    grid-column: 2;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.paginas ul{
+    margin-top: 10px;
+}
+
+.paginas ul li{
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.paginas ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.paginas ul li a:hover{
+    font-weight: 800;
+}
+
+.quem-somos{
+    grid-column: 3;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+.quem-somos p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.email{
+    grid-column: 4;
+    color: white;
+    font-family: "Inter", sans-serif;
+    margin-left: 50px;
+}
+
+.email p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.redes{
+    grid-column: 5;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.redes svg{
+    width: 25px;
+    vertical-align: baseline;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.redes a{
+    background-color: white;
+    padding: 10px;
+    margin-left: 20px;
+    color: #02214B;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 800;
+}

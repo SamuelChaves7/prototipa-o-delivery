@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Signika+Negative:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #02214B;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+}
+
+header img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.logo {
+    grid-column: 1;
+    text-align: center;
+}
+
+.menu {
+    grid-column: 2;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menu nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#nav-menu {
+    padding: 50px 0;
+}
+
+#nav-menu ul li a {
+    color: #02214B;
+    text-decoration: none;
+    transition: 1s;
+}
+
+#nav-menu ul li a:hover {
+    font-weight: 800;
+}
+
+
+.corpo-titulo {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.titulo {
+    text-align: center;
+    grid-column: 2;
+    color: white;
+}
+
+.titulo h1 {
+    font-size: 50px;
+    font-family: "Signika", sans-serif;
+    text-shadow: -3px 3px 1px #CD8B28;
+}
+
+.titulo h4 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 400;
+}
+
+.titulo span {
+    font-weight: 900;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.conteudo{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.conteudo h5{
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.conteudo span{
+    font-weight: 800;
+}
+
+#price{
+    color: #8BE334;
+}
+
+.foto-logo{
+    font-family: "Roboto Flex", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#foto{
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+#logo-qmsomos{
+    width: 350px;
+}
+
+
+footer{
+    margin-top: 80px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 2fr 3fr auto;
+    grid-template-rows: 100%;
+    padding: 50px;
+}
+
+.logo-footer{
+    grid-column: 1;
+    text-align: center;
+}
+
+.logo-footer img{
+    margin-top: 20px;
+    width: 150px;
+    vertical-align: middle;
+}
+
+.paginas{
+    grid-column: 2;
+    color: #02214B;
+    font-family: "Inter", sans-serif;
+}
+
+.paginas ul{
+    margin-top: 10px;
+}
+
+.paginas ul li{
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.paginas ul li a{
+    color: #02214B;
+    text-decoration: none;
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.paginas ul li a:hover{
+    font-weight: 800;
+}
+
+.quem-somos{
+    grid-column: 3;
+    color: #02214B;
+    font-family: "Inter", sans-serif;
+}
+
+.quem-somos p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.email{
+    grid-column: 4;
+    color: #02214B;
+    font-family: "Inter", sans-serif;
+    margin-left: 50px;
+}
+
+.email p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.redes{
+    grid-column: 5;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.redes svg{
+    width: 25px;
+    vertical-align: middle;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.redes a{
+    background-color: #02214B;
+    padding: 10px;
+    margin-left: 20px;
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 800;
+    text-align: center;
+}
